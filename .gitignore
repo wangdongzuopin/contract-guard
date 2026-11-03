@@ -1,0 +1,21 @@
+node_modules
+.output
+.wxt
+stats.html
+*.zip
+dist
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+
+# 语料库 PDF 的中间产物（HTML 源码），PDF 本身入库
+test/fixtures/corpus/_html
+
+# 日志文件
+*.log
+# 真实合同和私人回归样本不得进入公开仓库
+test/fixtures/golden/
+private/
+local-contracts/

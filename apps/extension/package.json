@@ -1,0 +1,30 @@
+{
+  "name": "@contract-guard/extension",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "合同风险检查浏览器扩展（MV3，本地解析，无后端）",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "compile": "tsc --noEmit",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@wxt-dev/module-react": "^1.2.2",
+    "typescript": "^5.9.3",
+    "vite": "^8.1.5",
+    "wxt": "^0.21.3"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.3.4",
+    "antd": "^6.6.8",
+    "pdfjs-dist": "^6.4.299",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}

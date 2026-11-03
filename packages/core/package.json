@@ -1,0 +1,13 @@
+{
+  "name": "@contract-guard/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "合同条款切分 / 数值抽取 / 规则比对 引擎（纯 TS，零浏览器依赖，可跑在扩展、CLI、私有化服务端）",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./rules": "./src/rules.ts"
+  }
+}

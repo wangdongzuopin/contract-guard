@@ -1,0 +1,5 @@
+import '../../ui/global.css';
+import { mount } from '../../ui/bootstrap';
+import PopupApp from './App';
+
+mount(PopupApp);

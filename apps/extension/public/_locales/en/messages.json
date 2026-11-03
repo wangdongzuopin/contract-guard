@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Contract Guard",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Check contract PDFs against your company's red lines and mark every deviation. Files stay on your device.",
+    "description": "Extension description (132 characters max)"
+  }
+}

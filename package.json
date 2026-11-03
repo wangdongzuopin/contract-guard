@@ -1,0 +1,25 @@
+{
+  "name": "contract-guard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "本地运行的合同风险检查浏览器扩展 —— 零后端、零上传、合同不出本机",
+  "scripts": {
+    "dev": "pnpm --filter @contract-guard/extension dev",
+    "build": "pnpm --filter @contract-guard/extension build",
+    "zip": "pnpm --filter @contract-guard/extension zip",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "node apps/extension/test/browser-smoke.mjs",
+    "icons": "node scripts/generate-icons.mjs",
+    "preview": "node scripts/preview.mjs",
+    "typecheck": "tsc --noEmit -p packages/core/tsconfig.json && pnpm --filter @contract-guard/extension compile",
+    "verify": "pnpm test && pnpm typecheck && pnpm build && pnpm test:e2e"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "playwright": "^1.64.1",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.5"
+  }
+}

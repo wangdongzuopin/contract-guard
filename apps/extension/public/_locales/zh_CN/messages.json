@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "合同风险检查助手",
+    "description": "扩展名称"
+  },
+  "extDescription": {
+    "message": "在本机按企业红线检查合同 PDF，标出每一处偏离条款。文件不上传、不出本机。",
+    "description": "扩展描述（不超过 132 个字符）"
+  }
+}
